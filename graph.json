@@ -9,14 +9,14 @@
    "type": "start"
   },
   "1": {
-   "left": 439.625,
-   "top": 256.4375,
+   "left": 251.625,
+   "top": 270.4375,
    "outPins": [
     "3"
    ],
    "type": "action",
    "title": "Setup Scene",
-   "actionCode": "SetLocation(\"Mary\",\"ByronHouseLibrary\",\"Left Bookshelf\")\nSetLocation(\"Ada\",\"ByronHouseLibrary\",\"Left Couch\")\nChangeScene(\"ByronHouseLibrary\")\n"
+   "actionCode": "SetLocation(\"Mary\",\"ByronHouseLibrary\",\"Left Bookshelf\")\nSetLocation(\"Ada\",\"ByronHouseLibrary\",\"Left Couch\")\n\n//Yeah I changed that stuff!!\nChangeScene(\"ByronHouseFoyer\")\n\n"
   },
   "2": {
    "left": 3107.27099609375,
