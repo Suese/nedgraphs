@@ -297,6 +297,23 @@
    ],
    "type": "return",
    "line": "Exit ByronHouseFoyer to ByronHouseLibrary"
+  },
+  "26": {
+   "left": 246,
+   "top": 594,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "New Action",
+   "actionCode": "//Github w0000t"
+  },
+  "27": {
+   "left": 213,
+   "top": 538,
+   "outPins": [],
+   "type": "comment",
+   "comment": "GitHub support added"
   }
  },
  "format": "goose2017-01-31-1227"
