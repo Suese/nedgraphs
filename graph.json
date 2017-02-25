@@ -1,26 +1,26 @@
 {
  "nodes": {
   "0": {
-   "left": 64,
-   "top": 157.6875,
+   "left": 63.99999891008652,
+   "top": 157.68749782017306,
    "outPins": [
     "1"
    ],
    "type": "start"
   },
   "1": {
-   "left": 251.625,
-   "top": 270.4375,
+   "left": 251.62499564034607,
+   "top": 270.4374912806921,
    "outPins": [
     "3"
    ],
    "type": "action",
    "title": "Setup Scene",
-   "actionCode": "SetLocation(\"Mary\",\"ByronHouseLibrary\",\"Left Bookshelf\")\nSetLocation(\"Ada\",\"ByronHouseLibrary\",\"Left Couch\")\n\n//Yeah I changed that stuff!!\nChangeScene(\"ByronHouseFoyer\")\n\n"
+   "actionCode": "//Test\nSetLocation(\"Mary\",\"ByronHouseLibrary\",\"Left Bookshelf\")\nSetLocation(\"Ada\",\"ByronHouseLibrary\",\"Left Couch\")\n\n//Yeah I changed that stuff!!\nChangeScene(\"ByronHouseFoyer\")\n\n"
   },
   "2": {
-   "left": 3107.27099609375,
-   "top": 136.375,
+   "left": 3107.2656250000014,
+   "top": 136.37500217982705,
    "outPins": [
     -1
    ],
@@ -35,8 +35,8 @@
    ]
   },
   "3": {
-   "left": 1065,
-   "top": 211.4166717529297,
+   "left": 1065.0000000000005,
+   "top": 211.40625000000009,
    "outPins": [
     "4",
     "5",
@@ -53,8 +53,8 @@
    "title": "Mary follow to the foyer"
   },
   "4": {
-   "left": 1577.041748046875,
-   "top": 137.9375,
+   "left": 1577.0312500000007,
+   "top": 137.93750217982705,
    "outPins": [
     "12"
    ],
@@ -63,8 +63,8 @@
    "actionCode": "SetLocation(\"Mary\",\"ByronHouseFoyer\",\"Center\")\nChangeScene(\"ByronHouseFoyer\")\n"
   },
   "5": {
-   "left": 1551.8958740234375,
-   "top": 351.66668701171875,
+   "left": 1551.890694754465,
+   "top": 351.65625435965416,
    "outPins": [
     -1
    ],
@@ -87,8 +87,8 @@
    ]
   },
   "6": {
-   "left": 2195.83349609375,
-   "top": 154.14584350585938,
+   "left": 2195.828159877233,
+   "top": 154.14062500000006,
    "outPins": [
     "7",
     "8"
@@ -101,8 +101,8 @@
    "title": "Mary follow to the library"
   },
   "7": {
-   "left": 2554.375,
-   "top": 119.64583587646484,
+   "left": 2554.375000000001,
+   "top": 119.64062282017304,
    "outPins": [
     -1
    ],
@@ -121,8 +121,8 @@
    ]
   },
   "8": {
-   "left": 2542.291748046875,
-   "top": 364.41668701171875,
+   "left": 2542.281319754465,
+   "top": 364.4062587193082,
    "outPins": [
     "13"
    ],
@@ -131,8 +131,8 @@
    "actionCode": "SetLocation(\"Mary\",\"ByronHouseLibrary\",\"Left Bookshelf\")\nChangeScene(\"ByronHouseLibrary\")\n"
   },
   "9": {
-   "left": 1962.791748046875,
-   "top": 223.25,
+   "left": 1962.7812848772328,
+   "top": 223.24999128069206,
    "outPins": [
     "6"
    ],
@@ -140,8 +140,8 @@
    "line": "Exit ByronHouseLibrary to ByronHouseFoyer"
   },
   "10": {
-   "left": 2089.625,
-   "top": 1132.8958740234375,
+   "left": 2089.625069754465,
+   "top": 1132.8906250000005,
    "outPins": [
     "15"
    ],
@@ -149,8 +149,8 @@
    "line": "Exit ByronHouseLibrary to BlehRoom"
   },
   "11": {
-   "left": 1565.5625,
-   "top": 1222.1458740234375,
+   "left": 1565.562569754465,
+   "top": 1222.1405901227683,
    "outPins": [
     -1
    ],
@@ -165,8 +165,8 @@
    ]
   },
   "12": {
-   "left": 1950.125,
-   "top": 147.1875,
+   "left": 1950.1250348772328,
+   "top": 147.18750000000006,
    "outPins": [
     "9"
    ],
@@ -174,8 +174,8 @@
    "line": "Mary"
   },
   "13": {
-   "left": 3055.27099609375,
-   "top": 416.2708435058594,
+   "left": 3055.26576450893,
+   "top": 416.2656075613841,
    "outPins": [
     "25"
    ],
@@ -183,8 +183,8 @@
    "line": "Mary"
   },
   "14": {
-   "left": 1572.0833740234375,
-   "top": 1016.7916870117188,
+   "left": 1572.0781598772328,
+   "top": 1016.7812674386165,
    "outPins": [
     "18"
    ],
@@ -193,8 +193,8 @@
    "actionCode": "SetLocation(\"Ada\",\"BlehRoom\",\"Center\")\nChangeScene(\"BlehRoom\")"
   },
   "15": {
-   "left": 2370.5625,
-   "top": 1072.916748046875,
+   "left": 2370.562569754465,
+   "top": 1072.9062325613843,
    "outPins": [
     "16",
     "17"
@@ -207,8 +207,8 @@
    "title": "Mary follow to the library"
   },
   "16": {
-   "left": 2727.77099609375,
-   "top": 1038.416748046875,
+   "left": 2727.765590122769,
+   "top": 1038.4062848772326,
    "outPins": [
     -1
    ],
@@ -223,8 +223,8 @@
    ]
   },
   "17": {
-   "left": 2717,
-   "top": 1283.1875,
+   "left": 2717.0000348772332,
+   "top": 1283.1875174386166,
    "outPins": [
     "19"
    ],
@@ -233,8 +233,8 @@
    "actionCode": "SetLocation(\"Ada\",\"ByronHouseLibrary\",\"Left Couch\")\nChangeScene(\"ByronHouseLibrary\")\n"
   },
   "18": {
-   "left": 2081.104248046875,
-   "top": 1060.9583740234375,
+   "left": 2081.093750000001,
+   "top": 1060.9531075613843,
    "outPins": [
     "10"
    ],
@@ -242,8 +242,8 @@
    "line": "Ada"
   },
   "19": {
-   "left": 3104,
-   "top": 1335.041748046875,
+   "left": 3104.0000697544656,
+   "top": 1335.0312151227683,
    "outPins": [
     "24"
    ],
@@ -251,38 +251,38 @@
    "line": "Ada"
   },
   "20": {
-   "left": 3392.4375,
-   "top": 1511.3125,
+   "left": 3392.4375697544656,
+   "top": 1511.3124302455362,
    "outPins": [
     "21"
    ],
    "type": "control"
   },
   "21": {
-   "left": 1163.125,
-   "top": 1522.0625,
+   "left": 1163.1250000000005,
+   "top": 1522.0624651227683,
    "outPins": [
     "3"
    ],
    "type": "control"
   },
   "22": {
-   "left": 1553.041748046875,
-   "top": 64,
+   "left": 1553.0311802455362,
+   "top": 63.99999891008652,
    "outPins": [],
    "type": "comment",
    "comment": "Mary Follows you around the house"
   },
   "23": {
-   "left": 1537.041748046875,
-   "top": 922,
+   "left": 1537.0312500000007,
+   "top": 922.0000348772325,
    "outPins": [],
    "type": "comment",
    "comment": "Ada Follows you around the house"
   },
   "24": {
-   "left": 3096.0625,
-   "top": 1409.0208740234375,
+   "left": 3096.0623604910725,
+   "top": 1409.0155901227683,
    "outPins": [
     "20"
    ],
@@ -290,8 +290,8 @@
    "line": "Exit BlehRoom to ByronHouseLibrary"
   },
   "25": {
-   "left": 3051.625,
-   "top": 514.2083740234375,
+   "left": 3051.6249302455367,
+   "top": 514.2031424386163,
    "outPins": [
     "20"
    ],
@@ -299,21 +299,11 @@
    "line": "Exit ByronHouseFoyer to ByronHouseLibrary"
   },
   "26": {
-   "left": 246,
-   "top": 594,
-   "outPins": [
-    -1
-   ],
-   "type": "action",
-   "title": "New Action",
-   "actionCode": "//Github w0000t"
-  },
-  "27": {
-   "left": 213,
-   "top": 538,
+   "left": 297.12500435965416,
+   "top": 564.2812674386163,
    "outPins": [],
    "type": "comment",
-   "comment": "GitHub support added"
+   "comment": "Testing"
   }
  },
  "format": "goose2017-01-31-1227"
