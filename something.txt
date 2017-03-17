@@ -20,7 +20,7 @@
    "left": 412,
    "top": 419,
    "outPins": [
-    8
+    "8"
    ],
    "type": "gameState",
    "eventList": [
@@ -32,7 +32,7 @@
    "left": 383,
    "top": 154,
    "outPins": [
-    6
+    "6"
    ],
    "type": "action",
    "title": "New Action",
@@ -82,7 +82,7 @@
    "left": 764,
    "top": 496,
    "outPins": [
-    7
+    "7"
    ],
    "type": "control"
   }
