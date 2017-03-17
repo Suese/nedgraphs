@@ -16,10 +16,10 @@
    ],
    "type": "action",
    "title": "Setup Scene",
-   "actionCode": "//Test\nSetLocation(\"Mary\",\"ByronHouseLibrary\",\"Left Bookshelf\")\nSetLocation(\"Ada\",\"ByronHouseLibrary\",\"Left Couch\")\n\n//Yeah I changed that stuff!!\nChangeScene(\"ByronHouseLibrary\")\n\n"
+   "actionCode": "SetLocation(\"Mary\",\"ByronHouseLibrary\",\"Left Bookshelf\")\nSetLocation(\"Ada\",\"ByronHouseLibrary\",\"Left Couch\")\nChangeScene(\"ByronHouseLibrary\")\n\n"
   },
   "2": {
-   "left": 3107.265625,
+   "left": 3107.25,
    "top": 136.375,
    "outPins": [
     -1
@@ -36,7 +36,7 @@
   },
   "3": {
    "left": 1065,
-   "top": 211.40625,
+   "top": 211.39584350585938,
    "outPins": [
     "4",
     "5",
@@ -53,7 +53,7 @@
    "title": "Mary follow to the foyer"
   },
   "4": {
-   "left": 1577.03125,
+   "left": 1577.0208740234375,
    "top": 137.9375,
    "outPins": [
     "12"
@@ -63,8 +63,8 @@
    "actionCode": "SetLocation(\"Mary\",\"ByronHouseFoyer\",\"Center\")\nChangeScene(\"ByronHouseFoyer\")\n"
   },
   "5": {
-   "left": 1551.890625,
-   "top": 351.65625,
+   "left": 1551.875,
+   "top": 351.6458435058594,
    "outPins": [
     -1
    ],
@@ -87,8 +87,8 @@
    ]
   },
   "6": {
-   "left": 2195.828125,
-   "top": 154.140625,
+   "left": 2195.8125,
+   "top": 154.125,
    "outPins": [
     "7",
     "8"
@@ -102,7 +102,7 @@
   },
   "7": {
    "left": 2554.375,
-   "top": 119.640625,
+   "top": 119.625,
    "outPins": [
     -1
    ],
@@ -121,8 +121,8 @@
    ]
   },
   "8": {
-   "left": 2542.28125,
-   "top": 364.40625,
+   "left": 2542.27099609375,
+   "top": 364.3958435058594,
    "outPins": [
     "13"
    ],
@@ -131,8 +131,8 @@
    "actionCode": "SetLocation(\"Mary\",\"ByronHouseLibrary\",\"Left Bookshelf\")\nChangeScene(\"ByronHouseLibrary\")\n"
   },
   "9": {
-   "left": 1962.78125,
-   "top": 223.234375,
+   "left": 1962.7708740234375,
+   "top": 223.2291717529297,
    "outPins": [
     "6"
    ],
@@ -141,7 +141,7 @@
   },
   "10": {
    "left": 2089.625,
-   "top": 1132.890625,
+   "top": 1132.875,
    "outPins": [
     "15"
    ],
@@ -150,7 +150,7 @@
   },
   "11": {
    "left": 1565.5625,
-   "top": 1222.140625,
+   "top": 1222.125,
    "outPins": [
     -1
    ],
@@ -174,7 +174,7 @@
    "line": "Mary"
   },
   "13": {
-   "left": 3055.265625,
+   "left": 3055.25,
    "top": 416.25,
    "outPins": [
     "25"
@@ -183,8 +183,8 @@
    "line": "Mary"
   },
   "14": {
-   "left": 1572.078125,
-   "top": 1016.78125,
+   "left": 1572.0625,
+   "top": 1016.7708740234375,
    "outPins": [
     "18"
    ],
@@ -194,7 +194,7 @@
   },
   "15": {
    "left": 2370.5625,
-   "top": 1072.90625,
+   "top": 1072.8958740234375,
    "outPins": [
     "16",
     "17"
@@ -207,8 +207,8 @@
    "title": "Mary follow to the library"
   },
   "16": {
-   "left": 2727.765625,
-   "top": 1038.40625,
+   "left": 2727.75,
+   "top": 1038.3958740234375,
    "outPins": [
     -1
    ],
@@ -233,8 +233,8 @@
    "actionCode": "SetLocation(\"Ada\",\"ByronHouseLibrary\",\"Left Couch\")\nChangeScene(\"ByronHouseLibrary\")\n"
   },
   "18": {
-   "left": 2081.09375,
-   "top": 1060.953125,
+   "left": 2081.08349609375,
+   "top": 1060.9375,
    "outPins": [
     "10"
    ],
@@ -243,7 +243,7 @@
   },
   "19": {
    "left": 3104,
-   "top": 1335.03125,
+   "top": 1335.0208740234375,
    "outPins": [
     "24"
    ],
@@ -252,7 +252,7 @@
   },
   "20": {
    "left": 3392.4375,
-   "top": 1511.296875,
+   "top": 1511.291748046875,
    "outPins": [
     "21"
    ],
@@ -267,22 +267,22 @@
    "type": "control"
   },
   "22": {
-   "left": 1553.015625,
+   "left": 1553,
    "top": 64,
    "outPins": [],
    "type": "comment",
    "comment": "Mary Follows you around the house"
   },
   "23": {
-   "left": 1537.03125,
+   "left": 1537.0208740234375,
    "top": 922,
    "outPins": [],
    "type": "comment",
    "comment": "Ada Follows you around the house"
   },
   "24": {
-   "left": 3096.046875,
-   "top": 1409.015625,
+   "left": 3096.041748046875,
+   "top": 1409,
    "outPins": [
     "20"
    ],
@@ -291,7 +291,7 @@
   },
   "25": {
    "left": 3051.625,
-   "top": 514.203125,
+   "top": 514.1875,
    "outPins": [
     "20"
    ],
@@ -300,7 +300,7 @@
   },
   "26": {
    "left": 297.125,
-   "top": 564.28125,
+   "top": 564.2708740234375,
    "outPins": [],
    "type": "comment",
    "comment": "Testing"
