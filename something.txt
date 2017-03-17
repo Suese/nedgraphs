@@ -9,18 +9,18 @@
    "type": "start"
   },
   "1": {
-   "left": 173,
-   "top": 278,
+   "left": 111,
+   "top": 92,
    "outPins": [
     "3"
    ],
    "type": "start"
   },
   "2": {
-   "left": 403,
-   "top": 369,
+   "left": 412,
+   "top": 419,
    "outPins": [
-    5
+    8
    ],
    "type": "gameState",
    "eventList": [
@@ -32,23 +32,23 @@
    "left": 383,
    "top": 154,
    "outPins": [
-    4
+    6
    ],
    "type": "action",
    "title": "New Action",
-   "actionCode": "//Hello world\n"
+   "actionCode": "//Some change\n"
   },
   "4": {
-   "left": 286,
-   "top": 424,
+   "left": 311,
+   "top": 394,
    "outPins": [
     "2"
    ],
    "type": "control"
   },
   "5": {
-   "left": 742,
-   "top": 389,
+   "left": 377,
+   "top": 606,
    "outPins": [
     -1
    ],
@@ -61,6 +61,30 @@
      "text": "Amazing!"
     }
    ]
+  },
+  "6": {
+   "left": 712,
+   "top": 341,
+   "outPins": [
+    "4"
+   ],
+   "type": "control"
+  },
+  "7": {
+   "left": 272,
+   "top": 553,
+   "outPins": [
+    "5"
+   ],
+   "type": "control"
+  },
+  "8": {
+   "left": 764,
+   "top": 496,
+   "outPins": [
+    7
+   ],
+   "type": "control"
   }
  },
  "format": "goose2017-01-31-1227"
