@@ -12,27 +12,55 @@
    "left": 173,
    "top": 278,
    "outPins": [
-    3
+    "3"
    ],
    "type": "start"
   },
   "2": {
    "left": 403,
    "top": 369,
-   "outPins": [],
+   "outPins": [
+    5
+   ],
    "type": "gameState",
-   "eventList": [],
+   "eventList": [
+    "Drop anything on anything"
+   ],
    "title": "New Game State"
   },
   "3": {
    "left": 383,
    "top": 154,
    "outPins": [
-    -1
+    4
    ],
    "type": "action",
    "title": "New Action",
-   "actionCode": "//Hello"
+   "actionCode": "//Hello world\n"
+  },
+  "4": {
+   "left": 286,
+   "top": 424,
+   "outPins": [
+    "2"
+   ],
+   "type": "control"
+  },
+  "5": {
+   "left": 742,
+   "top": 389,
+   "outPins": [
+    -1
+   ],
+   "type": "dialog",
+   "dialogType": "Dialog",
+   "title": "Dialog",
+   "parts": [
+    {
+     "character": "Mary",
+     "text": "Amazing!"
+    }
+   ]
   }
  },
  "format": "goose2017-01-31-1227"
