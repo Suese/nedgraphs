@@ -1,4 +1,23 @@
 {
- "nodes": {},
+ "nodes": {
+  "0": {
+   "left": 338,
+   "top": 240,
+   "outPins": [
+    1
+   ],
+   "type": "start"
+  },
+  "1": {
+   "left": 584,
+   "top": 249,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "NO ACTION",
+   "actionCode": ""
+  }
+ },
  "format": "goose2017-01-31-1227"
 }
