@@ -1,1 +1,39 @@
-Hello world #459.90645557882834
+{
+ "nodes": {
+  "0": {
+   "left": 0,
+   "top": 0,
+   "outPins": [
+    -1
+   ],
+   "type": "start"
+  },
+  "1": {
+   "left": 173,
+   "top": 278,
+   "outPins": [
+    3
+   ],
+   "type": "start"
+  },
+  "2": {
+   "left": 403,
+   "top": 369,
+   "outPins": [],
+   "type": "gameState",
+   "eventList": [],
+   "title": "New Game State"
+  },
+  "3": {
+   "left": 383,
+   "top": 154,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "New Action",
+   "actionCode": "//Hello"
+  }
+ },
+ "format": "goose2017-01-31-1227"
+}
