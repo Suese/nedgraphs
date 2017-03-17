@@ -16,7 +16,7 @@
    ],
    "type": "action",
    "title": "Setup Scene",
-   "actionCode": "SetLocation(\"Mary\",\"ByronHouseLibrary\",\"Left Bookshelf\")\nSetLocation(\"Ada\",\"ByronHouseLibrary\",\"Left Couch\")\n\n//Why you not save this time?  Maybe a caching issue?\n//oh of course it's a caching issue...\n//\nChangeScene(\"ByronHouseLibrary\")\n\n"
+   "actionCode": "SetLocation(\"Mary\",\"ByronHouseLibrary\",\"Left Bookshelf\")\nSetLocation(\"Ada\",\"ByronHouseLibrary\",\"Left Couch\")\n\n//Testing\nChangeScene(\"ByronHouseLibrary\")\n\n"
   },
   "2": {
    "left": 3107.25,
