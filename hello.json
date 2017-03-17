@@ -1,4 +1,13 @@
 {
- "nodes": {},
+ "nodes": {
+  "0": {
+   "id": 0,
+   "left": 175,
+   "top": 197,
+   "outPins": [],
+   "type": "comment",
+   "comment": "Hello World"
+  }
+ },
  "format": "goose2017-01-31-1227"
 }
