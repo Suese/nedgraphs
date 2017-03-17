@@ -1,13 +1,5 @@
 {
  "nodes": {
-  "0": {
-   "left": 0,
-   "top": 0,
-   "outPins": [
-    -1
-   ],
-   "type": "start"
-  },
   "1": {
    "left": 111,
    "top": 92,
