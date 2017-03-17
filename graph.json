@@ -16,7 +16,7 @@
    ],
    "type": "action",
    "title": "Setup Scene",
-   "actionCode": "SetLocation(\"Mary\",\"ByronHouseLibrary\",\"Left Bookshelf\")\nSetLocation(\"Ada\",\"ByronHouseLibrary\",\"Left Couch\")\n\n\nChangeScene(\"ByronHouseLibrary\")\n\n"
+   "actionCode": "SetLocation(\"Mary\",\"ByronHouseLibrary\",\"Left Bookshelf\")\nSetLocation(\"Ada\",\"ByronHouseLibrary\",\"Left Couch\")\n\nChangeScene(\"ByronHouseLibrary\")\n\n//somethingh else\n\n"
   },
   "2": {
    "left": 3107.25,
