@@ -1,0 +1,12 @@
+{
+ "nodes": {
+  "0": {
+   "left": 272,
+   "top": 210,
+   "outPins": [],
+   "type": "comment",
+   "comment": "Comment"
+  }
+ },
+ "format": "goose2017-01-31-1227"
+}
