@@ -1,5 +1,16 @@
 {
  "nodes": {
+  "0": {
+   "left": 740,
+   "top": 434,
+   "outPins": [
+    -1
+   ],
+   "type": "animation",
+   "title": "Animation",
+   "actor": "",
+   "action": ""
+  },
   "2": {
    "left": 232,
    "top": 246,
