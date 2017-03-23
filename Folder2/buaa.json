@@ -8,7 +8,7 @@
    ],
    "type": "action",
    "title": "Test1",
-   "actionCode": "Some content"
+   "actionCode": "Change Content"
   }
  },
  "format": "goose2017-01-31-1227"
