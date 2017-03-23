@@ -1,25 +1,25 @@
 {
  "nodes": {
   "0": {
-   "left": 740,
-   "top": 434,
+   "left": 740.0000261579243,
+   "top": 434.00000000000006,
    "outPins": [
     -1
    ],
    "type": "animation",
    "title": "Animation",
-   "actor": "",
+   "actor": "NO NOT HELLO WORLD",
    "action": ""
   },
   "2": {
-   "left": 232,
-   "top": 246,
+   "left": 232.00000871930806,
+   "top": 246.00000000000003,
    "outPins": [
     -1
    ],
    "type": "action",
    "title": "Johnsoncakes1",
-   "actionCode": "Hello world 2"
+   "actionCode": "Something other than hello world 2"
   }
  },
  "format": "goose2017-01-31-1227"
