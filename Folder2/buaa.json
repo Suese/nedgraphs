@@ -12,8 +12,8 @@
    "action": ""
   },
   "1": {
-   "left": 1025.7083740234375,
-   "top": 154.125,
+   "left": 145.70834350585938,
+   "top": 184.125,
    "outPins": [
     -1
    ],
@@ -26,6 +26,16 @@
      "text": ""
     }
    ]
+  },
+  "2": {
+   "left": 292,
+   "top": 412,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "Hello world",
+   "actionCode": "Test"
   }
  },
  "format": "goose2017-01-31-1227"
