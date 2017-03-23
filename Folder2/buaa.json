@@ -22,8 +22,8 @@
    "title": "Dialog",
    "parts": [
     {
-     "character": "Action",
-     "text": ""
+     "character": "Mary",
+     "text": "Hello world"
     }
    ]
   },
