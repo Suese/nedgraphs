@@ -1,8 +1,8 @@
 {
  "nodes": {
   "0": {
-   "left": 740.0000000000001,
-   "top": 434.0000234331404,
+   "left": 740,
+   "top": 434,
    "outPins": [
     -1
    ],
@@ -12,8 +12,8 @@
    "action": ""
   },
   "1": {
-   "left": 1025.7083217075894,
-   "top": 154.1250059945243,
+   "left": 1025.7083740234375,
+   "top": 154.125,
    "outPins": [
     -1
    ],
@@ -26,16 +26,6 @@
      "text": ""
     }
    ]
-  },
-  "2": {
-   "left": 231.99998256138394,
-   "top": 246.00000599452432,
-   "outPins": [
-    -1
-   ],
-   "type": "action",
-   "title": "Johnsoncakes1",
-   "actionCode": "Something other than hello world 2"
   }
  },
  "format": "goose2017-01-31-1227"
