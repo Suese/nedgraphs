@@ -1,11 +1,14 @@
 {
  "nodes": {
-  "0": {
-   "left": 272,
-   "top": 210,
-   "outPins": [],
-   "type": "comment",
-   "comment": "Comment"
+  "2": {
+   "left": 232,
+   "top": 246,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "Test1",
+   "actionCode": "Some content"
   }
  },
  "format": "goose2017-01-31-1227"
