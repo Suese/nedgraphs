@@ -28,14 +28,14 @@
    ]
   },
   "2": {
-   "left": 297,
-   "top": 459,
+   "left": 881,
+   "top": 685,
    "outPins": [
     -1
    ],
    "type": "action",
    "title": "Hello world",
-   "actionCode": "You think I'm a punk?"
+   "actionCode": "No I don't"
   }
  },
  "format": "goose2017-01-31-1227"
