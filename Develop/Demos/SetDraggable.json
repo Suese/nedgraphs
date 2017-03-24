@@ -8,7 +8,7 @@
    ],
    "type": "action",
    "title": "Setup",
-   "actionCode": "ChangeScene(\"ByronHouseLibrary\")\nSetDraggable(\"AdasDrink\",true)\nSetDraggable(\"MarysDrink\",true)\nSetDraggable(\"PlayersDrink\",true)\n\n"
+   "actionCode": "ChangeScene(\"ByronHouseLibrary\")\nSetDraggable(\"AdasDrink\",false)\nSetDraggable(\"MarysDrink\",true)\nSetDraggable(\"PlayersDrink\",false)\n\n"
   },
   "1": {
    "left": 522,
