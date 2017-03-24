@@ -1,14 +1,14 @@
 {
  "nodes": {
   "0": {
-   "left": 862.7500250400642,
+   "left": 862.7500054775142,
    "top": 333.33333333333337,
    "outPins": [
     2
    ],
    "type": "action",
    "title": "Setup",
-   "actionCode": "ChangeScene(\"ByronHouseLibrary\")\n\nSetLocation(\"Mary\",\"ByronHouseLibrary\",\"Left Couch\")\nSetLocation(\"Ada\",\"ByronHouseLibrary\",\"Right Couch\")\n\n//SetInteractable(\"Mary\",false)\n"
+   "actionCode": "ChangeScene(\"ByronHouseLibrary\")\n\nSetLocation(\"Mary\",\"ByronHouseLibrary\",\"Left Couch\")\nSetLocation(\"Ada\",\"ByronHouseLibrary\",\"Right Couch\")\n\nSetInteractable(\"Mary\",false)\n"
   },
   "1": {
    "left": 522.0000125200321,
@@ -19,7 +19,7 @@
    "type": "start"
   },
   "2": {
-   "left": 1322.7083333333335,
+   "left": 1322.7083646334136,
    "top": 539.6458708934296,
    "outPins": [
     3,
@@ -30,11 +30,11 @@
     "Mary",
     "Ada"
    ],
-   "title": "New Game State"
+   "title": "Ada will enable"
   },
   "3": {
    "left": 1691.624974959936,
-   "top": 412.0417042267629,
+   "top": 412.04168857672283,
    "outPins": [
     -1
    ],
@@ -49,10 +49,10 @@
    ]
   },
   "4": {
-   "left": 1694.166666666667,
+   "left": 1694.1667292668271,
    "top": 642.5208458533655,
    "outPins": [
-    -1
+    5
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -60,7 +60,54 @@
    "parts": [
     {
      "character": "Ada",
-     "text": "I am Ada"
+     "text": "I am Ada.\n\nI'm going to set Mary interactable"
+    }
+   ]
+  },
+  "5": {
+   "left": 2426.9375375600966,
+   "top": 629.3750000000001,
+   "outPins": [
+    7
+   ],
+   "type": "action",
+   "title": "Set Mary Interactable",
+   "actionCode": "SetInteractable(\"Mary\",true)"
+  },
+  "6": {
+   "left": 4074.146071213943,
+   "top": 744.9167417868591,
+   "outPins": [
+    -1
+   ],
+   "type": "return",
+   "line": "Ada"
+  },
+  "7": {
+   "left": 3091.2707206530454,
+   "top": 700.1458583733976,
+   "outPins": [
+    8
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Ada"
+   ],
+   "title": "Ada will disable"
+  },
+  "8": {
+   "left": 3456.395920973558,
+   "top": 718.6042042267629,
+   "outPins": [
+    6
+   ],
+   "type": "dialog",
+   "dialogType": "Dialog",
+   "title": "Dialog",
+   "parts": [
+    {
+     "character": "Ada",
+     "text": "I'm going to set Mary NOT interactable now."
     }
    ]
   }
