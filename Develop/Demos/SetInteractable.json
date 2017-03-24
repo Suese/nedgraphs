@@ -1,22 +1,68 @@
 {
  "nodes": {
   "0": {
-   "left": 841.0000315020164,
-   "top": 440.00000000000017,
+   "left": 841.0000077504972,
+   "top": 440.00000000000057,
    "outPins": [
-    -1
+    2
    ],
    "type": "action",
    "title": "Setup",
-   "actionCode": "ChangeScene(\"ByronHouseLibrary\")\nSetDraggable(\"AdasDrink\",false)\nSetDraggable(\"MarysDrink\",true)\nSetDraggable(\"PlayersDrink\",false)"
+   "actionCode": "ChangeScene(\"ByronHouseLibrary\")\n\nSetLocation(\"Mary\",\"ByronHouseLibrary\",\"Left Couch\")\nSetLocation(\"Ada\",\"ByronHouseLibrary\",\"Right Couch\")\n\nSetInteractable(\"Mary\",false)\n"
   },
   "1": {
-   "left": 522.0000236265123,
-   "top": 429.0000078755042,
+   "left": 521.9999767485126,
+   "top": 429.0000116257446,
    "outPins": [
     "0"
    ],
    "type": "start"
+  },
+  "2": {
+   "left": 1322.7083720858152,
+   "top": 539.6458604600701,
+   "outPins": [
+    3,
+    4
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Mary",
+    "Ada"
+   ],
+   "title": "New Game State"
+  },
+  "3": {
+   "left": 1691.6250077504983,
+   "top": 412.0416744171632,
+   "outPins": [
+    -1
+   ],
+   "type": "dialog",
+   "dialogType": "Dialog",
+   "title": "Dialog",
+   "parts": [
+    {
+     "character": "Mary",
+     "text": "I am Mary"
+    }
+   ]
+  },
+  "4": {
+   "left": 1694.166705419149,
+   "top": 642.5208488343262,
+   "outPins": [
+    -1
+   ],
+   "type": "dialog",
+   "dialogType": "Dialog",
+   "title": "Dialog",
+   "parts": [
+    {
+     "character": "Ada",
+     "text": "I am Ada"
+    }
+   ]
   }
  },
  "format": "goose2017-01-31-1227"
