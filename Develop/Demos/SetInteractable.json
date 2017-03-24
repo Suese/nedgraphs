@@ -119,7 +119,7 @@
    ],
    "type": "action",
    "title": "Set Mary NOT interactable",
-   "actionCode": "SetInteractable(\"Mary\",true)"
+   "actionCode": "SetInteractable(\"Mary\",false)"
   }
  },
  "format": "goose2017-01-31-1227"
