@@ -9,13 +9,13 @@
    "type": "start"
   },
   "1": {
-   "left": 295,
-   "top": 428,
+   "left": 267,
+   "top": 450,
    "outPins": [
     "2"
    ],
    "type": "action",
-   "title": "SetupHello",
+   "title": "Setup",
    "actionCode": "//Changes were made\nSetLocation(\"Mary\",\"ByronHouseLibrary\" , \"Left Bookshelf\")\nChangeScene(\"byronhouselibrary\")"
   },
   "2": {
