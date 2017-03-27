@@ -1,0 +1,21 @@
+{
+ "nodes": {
+  "0": {
+   "left": 358,
+   "top": 249,
+   "outPins": [
+    -1
+   ],
+   "type": "dialog",
+   "dialogType": "Dialog",
+   "title": "Dialog",
+   "parts": [
+    {
+     "character": "Mary",
+     "text": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ"
+    }
+   ]
+  }
+ },
+ "format": "goose2017-01-31-1227"
+}
